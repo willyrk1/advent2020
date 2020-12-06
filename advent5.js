@@ -12,7 +12,7 @@ const part2 = seatIds => {
 	}
 }
 
-const outputFormatted = seatIds => `Day 4: Part 1 = ${part1(seatIds)}, Part 2 = ${part2(seatIds)}`
+const outputFormatted = seatIds => `Day 5: Part 1 = ${part1(seatIds)}, Part 2 = ${part2(seatIds)}`
 const output = seatsString => outputFormatted(seatsString
 	.trim()
 	.split('\n')
