@@ -3,14 +3,6 @@ const toSum = (curr, acc) => curr + acc
 const toUnion = (curr, acc) => curr | acc
 const toIntersection = (curr, acc) => curr & acc
 
-const toIndividualLookup = (individualLookup, answer) => {
-	individualLookup[answer] = true
-	return individualLookup
-}
-
-const toAnyGroupLookup = (groupLookup, individualAnswers) =>
-	[...individualAnswers].reduce(toIndividualLookup, groupLookup)
-	
 const aCode = 'a'.charCodeAt(0)
 	
 const answersToBits = answers => [...answers]
