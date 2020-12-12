@@ -35,7 +35,7 @@ const part2 = joltages => {
 }
 
 const outputFormatted = joltages =>
-	`Day 8: Part 1 = ${part1(joltages)}, Part 2 = ${part2(joltages)}`
+	`Day 10: Part 1 = ${part1(joltages)}, Part 2 = ${part2(joltages)}`
 	
 const byNumber = (a, b) => {
 	if (a < b) return -1
